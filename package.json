@@ -1,0 +1,27 @@
+{
+  "name": "oauth_maker",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --ext ts,js,json --exec ts-node -r tsconfig-paths/register ./src/app.ts"
+  },
+  "keywords": [],
+  "author": "Amal",
+  "license": "ISC",
+  "dependencies": {
+    "@types/connect-redis": "^0.0.18",
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.5",
+    "connect-redis": "^6.1.3",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "ioredis": "^5.2.3",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "tsconfig-paths": "^4.1.0"
+  }
+}
